@@ -78,9 +78,9 @@ WSGI_APPLICATION = 'player_api.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'playersdb',
+        'NAME': '',
         'USER': 'postgres',  # your database username
-        'PASSWORD': 'tryappserv',
+        'PASSWORD': '',
         'HOST': 'localhost',  # or your database server IP
         'PORT': '5432',        # default PostgreSQL port
     }
